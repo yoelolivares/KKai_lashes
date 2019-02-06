@@ -1,0 +1,106 @@
+/*
+KHANTHALY RESPONSIVE STYLES
+author: yoel olivares
+v1.0
+*/
+
+
+@media (min-width: 768px) {
+    /*----------------------- GENERAL ------------------------*/
+    h3 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 16px;
+    }
+    section {
+        padding: 150px 0;
+    }
+
+    /*----------------------- JUMBOTRON ------------------------*/
+    .jumbo-inner {
+        font-size: 16px;
+        color: #fff;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .page-jumbo h1 {
+        font-size: 36px;
+    }
+    /*----------------------- ABOUT ------------------------*/
+    .introduction {
+        padding: 100px 0;
+    }
+    /*----------------------- WORK ------------------------*/
+    .kkai-work {
+        padding: 50px 0;
+    }
+    /*----------------------- DIVIDER ------------------------*/
+    .divider h3 {
+        padding: 100px 0; 
+    }
+
+    /*----------------------- PRICING ------------------------*/
+    #pricing ul {
+        padding: 50px 0;
+    }
+    #pricing ul li {
+        width: 18%;
+        margin: 1%;
+        height: 200px;
+        float: left;
+    }
+    #pricing ul li h3 {
+        font-size: 18px;
+    }
+    #pricing ul li h4:hover{
+        font-size: 50px;
+    }
+    #pricing ul li h4{
+        font-size: 44px;
+        margin-top: 45px;
+    }
+    /*----------------------- TESTIMONIAL ------------------------*/
+    #hero {
+        margin-top:120px;
+        margin-bottom: 120px;
+    }
+    .slide {
+        margin-bottom:0;
+    }
+    .slide p {
+	    font-size: 18px;
+}
+    /*----------------------- CONTACT ------------------------*/
+    .contact-information .contact-wrapper {
+        margin: 100px 0;
+    }
+    .contact-information  h3 {
+        padding-top: 50px;
+    }
+    .contact-information ul li {
+        max-width: 31.3333%;
+        float: left;
+        width: 31.3333%;
+        margin: 1%;
+        margin-bottom: 65px;
+    }
+
+}
+@media (min-width: 992px) {
+    /*----------------------- ABOUT ------------------------*/
+
+    /*----------------------- PRICING ------------------------*/
+    #pricing  ul li h3 {
+        font-size: 20px; 
+    }
+    #pricing ul li h4:hover {
+        margin-top: 28px;
+        font-size: 68px;
+    }
+}
+@media (min-width: 1200px) {
+  .page-jumbo h1 {
+      font-size: 4em;
+  }
+}
